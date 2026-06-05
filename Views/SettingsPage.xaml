@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VentItMaui.Views.SettingsPage"
+             Title="Settings"
+             BackgroundColor="#0A0A14">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20">
+
+            <!-- Claude API Section -->
+            <Frame CornerRadius="12" BorderColor="#7C3AED" HasShadow="True" Padding="15">
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Claude AI Settings" FontSize="16" FontAttributes="Bold" TextColor="#FFFFFF"/>
+
+                    <Label Text="API Key" FontSize="12" TextColor="#888888"/>
+                    <Entry
+                        x:Name="ApiKeyEntry"
+                        Placeholder="Enter Claude API key"
+                        IsPassword="True"
+                        Text="{Binding ApiKey}"
+                        BackgroundColor="#1C1C2E"
+                        TextColor="#FFFFFF"
+                        PlaceholderColor="#666666"/>
+
+                    <Label Text="User Name" FontSize="12" TextColor="#888888"/>
+                    <Entry
+                        Placeholder="Enter your name"
+                        Text="{Binding UserName}"
+                        BackgroundColor="#1C1C2E"
+                        TextColor="#FFFFFF"
+                        PlaceholderColor="#666666"/>
+
+                    <HorizontalStackLayout Spacing="10">
+                        <Button
+                            Text="Save Settings"
+                            Command="{Binding SaveSettingsCommand}"
+                            BackgroundColor="#7C3AED"
+                            TextColor="#FFFFFF"
+                            CornerRadius="8"
+                            HorizontalOptions="FillAndExpand"/>
+                        <Button
+                            Text="Clear Key"
+                            Command="{Binding ClearApiKeyCommand}"
+                            BackgroundColor="#EF4444"
+                            TextColor="#FFFFFF"
+                            CornerRadius="8"
+                            HorizontalOptions="FillAndExpand"/>
+                    </HorizontalStackLayout>
+
+                    <Label Text="{Binding IsAuthenticated, StringFormat='Status: {0}'}"
+                           FontSize="12" TextColor="#22C55E"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Google Drive Section - Disabled for Now -->
+            <!--
+            <Frame CornerRadius="12" BorderColor="#4285F4" HasShadow="True" Padding="15">
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Google Drive Sync (Coming Soon)" FontSize="16" FontAttributes="Bold" TextColor="#888888"/>
+                    <Label Text="Cloud backup and sync will be available soon." FontSize="12" TextColor="#666666"/>
+                </VerticalStackLayout>
+            </Frame>
+            -->
+
+            <!-- About Section -->
+            <Frame CornerRadius="12" BorderColor="#888888" HasShadow="True" Padding="15">
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="About VentIt" FontSize="16" FontAttributes="Bold" TextColor="#FFFFFF"/>
+                    <Label Text="Version 1.0" FontSize="12" TextColor="#888888"/>
+                    <Label Text="Your personal mental wellness companion powered by Claude AI."
+                           FontSize="12" TextColor="#AAAAAA" LineBreakMode="WordWrap"/>
+                </VerticalStackLayout>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
