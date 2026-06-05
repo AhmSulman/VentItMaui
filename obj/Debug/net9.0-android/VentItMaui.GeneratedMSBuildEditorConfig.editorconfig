@@ -45,8 +45,56 @@ build_metadata.AdditionalFiles.ManifestResourceName = VentItMaui.Resources.Style
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[D:/Vent_it/VentItMaui/Views/ChatPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VentItMaui.Views.ChatPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ChatPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ChatPage.xaml
+
+[D:/Vent_it/VentItMaui/Views/JournalPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VentItMaui.Views.JournalPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\JournalPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\JournalPage.xaml
+
+[D:/Vent_it/VentItMaui/Views/MindMapPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VentItMaui.Views.MindMapPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MindMapPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MindMapPage.xaml
+
+[D:/Vent_it/VentItMaui/Views/NotesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VentItMaui.Views.NotesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\NotesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\NotesPage.xaml
+
+[D:/Vent_it/VentItMaui/Views/PlannerPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VentItMaui.Views.PlannerPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PlannerPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PlannerPage.xaml
+
+[D:/Vent_it/VentItMaui/Views/RoutinePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VentItMaui.Views.RoutinePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\RoutinePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\RoutinePage.xaml
+
 [D:/Vent_it/VentItMaui/Views/SettingsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = VentItMaui.Views.SettingsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\SettingsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\SettingsPage.xaml
+
+[D:/Vent_it/VentItMaui/Views/SongwritingPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VentItMaui.Views.SongwritingPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SongwritingPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SongwritingPage.xaml
+
+[D:/Vent_it/VentItMaui/Views/TimetablePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = VentItMaui.Views.TimetablePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TimetablePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TimetablePage.xaml

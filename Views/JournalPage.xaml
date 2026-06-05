@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VentItMaui.Views.JournalPage"
+             Title="Journal"
+             BackgroundColor="#0A0A14">
+
+    <VerticalStackLayout Padding="20" Spacing="20" VerticalOptions="Center" HorizontalOptions="Center">
+        <Label Text="📔 Journal" FontSize="32" FontAttributes="Bold" TextColor="#FFFFFF" HorizontalTextAlignment="Center"/>
+        <Label Text="Reflect on your day with mood tracking and gratitude" FontSize="14" TextColor="#AAAAAA" HorizontalTextAlignment="Center"/>
+        <Label Text="Coming Soon" FontSize="16" TextColor="#7C3AED" FontAttributes="Bold" HorizontalTextAlignment="Center" Margin="0,20,0,0"/>
+    </VerticalStackLayout>
+</ContentPage>

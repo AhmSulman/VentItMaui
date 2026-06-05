@@ -32,6 +32,14 @@ public static class MauiProgram
 		builder.Services.AddSingleton<SettingsViewModel>();
 
 		// Views
+		builder.Services.AddSingleton<ChatPage>();
+		builder.Services.AddSingleton<JournalPage>();
+		builder.Services.AddSingleton<NotesPage>();
+		builder.Services.AddSingleton<PlannerPage>();
+		builder.Services.AddSingleton<RoutinePage>();
+		builder.Services.AddSingleton<TimetablePage>();
+		builder.Services.AddSingleton<MindMapPage>();
+		builder.Services.AddSingleton<SongwritingPage>();
 		builder.Services.AddSingleton<SettingsPage>();
 
 #if DEBUG

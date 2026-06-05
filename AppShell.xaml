@@ -11,6 +11,54 @@
 
     <TabBar>
         <ShellContent
+            Title="Chat"
+            Icon="chat.png"
+            Route="chat"
+            ContentTemplate="{DataTemplate views:ChatPage}" />
+
+        <ShellContent
+            Title="Journal"
+            Icon="journal.png"
+            Route="journal"
+            ContentTemplate="{DataTemplate views:JournalPage}" />
+
+        <ShellContent
+            Title="Notes"
+            Icon="notes.png"
+            Route="notes"
+            ContentTemplate="{DataTemplate views:NotesPage}" />
+
+        <ShellContent
+            Title="Planner"
+            Icon="planner.png"
+            Route="planner"
+            ContentTemplate="{DataTemplate views:PlannerPage}" />
+
+        <ShellContent
+            Title="Routines"
+            Icon="routine.png"
+            Route="routines"
+            ContentTemplate="{DataTemplate views:RoutinePage}" />
+
+        <ShellContent
+            Title="Timetable"
+            Icon="timetable.png"
+            Route="timetable"
+            ContentTemplate="{DataTemplate views:TimetablePage}" />
+
+        <ShellContent
+            Title="Mind Map"
+            Icon="mindmap.png"
+            Route="mindmap"
+            ContentTemplate="{DataTemplate views:MindMapPage}" />
+
+        <ShellContent
+            Title="Songs"
+            Icon="music.png"
+            Route="songs"
+            ContentTemplate="{DataTemplate views:SongwritingPage}" />
+
+        <ShellContent
             Title="Settings"
             Icon="settings.png"
             Route="settings"
